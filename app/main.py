@@ -4,7 +4,7 @@ import numpy as np
 from pydantic import BaseModel
 
 class IrisInput(BaseModel):
-    features: list
+    features: list[float]
 
 app = FastAPI()
 
