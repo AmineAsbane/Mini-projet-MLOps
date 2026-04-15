@@ -2,7 +2,7 @@ name: MLOps Pipeline
 
 on:
   push:
-    branches: [ "feature/*", "develop" ]
+    branches: [ "feature/**", "develop" ]
 
 jobs:
   mlops-job:
