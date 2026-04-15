@@ -24,3 +24,4 @@ if not os.path.exists('app'):
 with open('app/model.pkl', 'wb') as f:
     pickle.dump(model, f)
 print("Modèle sauvegardé dans app/model.pkl")
+#Petit comm
